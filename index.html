@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Jogo da Velha</title>
+</head>
+
+<body>
+    <h1>Jogo da Velha</h1>
+    <div class="container">
+
+        <div class="block">
+
+            <div id="box1" class="box topo esquerdo">
+                <span data-jogador="none" onclick="play(this)">&nbsp;</span>
+            </div>
+
+            <div id="box2" class="box topo">
+                <span data-jogador="none" onclick="play(this)">&nbsp;</span>
+            </div>
+
+            <div id="box3" class="box topo direito">
+                <span data-jogador="none" onclick="play(this)">&nbsp;</span>
+            </div>
+
+                <div class="block">
+
+            <div id="box4" class="box esquerdo">
+                <span data-jogador="none" onclick="play(this)">&nbsp;</span>
+            </div>
+
+            <div id="box5" class="box">
+                <span data-jogador="none" onclick="play(this)">&nbsp;</span>
+            </div>
+
+            <div id="box6" class="box direito">
+                <span data-jogador="none" onclick="play(this)">&nbsp;</span>
+            </div>
+                </div>
+
+                <div class="block"></div>
+
+            <div id="box7" class="box base esquerdo">
+                <span data-jogador="none" onclick="play(this)">&nbsp;</span>
+            </div>
+
+            <div id="box8" class="box base">
+                <span data-jogador="none" onclick="play(this)">&nbsp;</span>
+            </div>
+
+            <div id="box9" class="box base direito">
+                <span data-jogador="none" onclick="play(this)">&nbsp;</span>
+            </div>
+        </div>
+        <h2>O jogo sempre começa com o "X"</h2>
+    </div>
+
+
+<script src="index.js"></script>
+
+
+</body>
+
+</html>
